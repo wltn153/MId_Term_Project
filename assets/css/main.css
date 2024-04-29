@@ -29,6 +29,17 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/*복사해서 붙여넣으면 따로따로 적힌다.*/
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*아래와 같이 한줄로도 작성 가능하다. (영어폰트 먼저)*/
+body {
+	font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+}
+
 body {
 	line-height: 1;
 }
